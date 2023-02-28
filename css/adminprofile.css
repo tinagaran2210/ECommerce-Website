@@ -1,0 +1,68 @@
+
+/*--register--*/
+.register-top-grid h2, .register-bottom-grid h2 {
+	color:#000;
+	font-size:1.5em;
+	padding-bottom:1em;
+	margin: 0;
+}
+.register-top-grid div, .register-bottom-grid div {
+	width: 48%;
+	float: left;
+	margin: 10px 0;
+}
+.register-top-grid span, .register-bottom-grid span {
+	color:#999;
+	font-size: 0.85em;
+	padding-bottom: 0.2em;
+	display: block;
+}
+.register-top-grid input[type="text"], .register-bottom-grid input[type="password"] {
+	border: 1px solid #EEE;
+	outline-color:#FF5B36;
+	width: 96%;
+	font-size: 1em;
+	padding: 0.5em;
+}
+.account-in h3{
+  font-size:20px;
+  color: #000;
+  
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+button:hover {
+	cursor: pointer;
+}
+.backbutton {
+  font-family: Bold;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.2;
+  float:left;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 150px;
+  height: 42px;
+  border-radius: 1px;
+  background:grey;
+  position: relative;
+  z-index: 1;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+   margin-top:20px;
+   margin-left:200px;
+}
