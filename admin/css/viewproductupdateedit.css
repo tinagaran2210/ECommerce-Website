@@ -1,0 +1,31 @@
+button:hover {
+	cursor: pointer;
+}
+.login100-form-btn {
+  font-family: Bold;
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.2;
+  float:left;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  min-width: 80px;
+  height: 42px;
+  border-radius: 10px;
+  background:grey;
+  position: relative;
+  z-index: 1;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+   margin-top:auto;
+   margin-left:40px;
+}

@@ -1,0 +1,61 @@
+
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+/* DROP DOWN LIST */
+.dropdown ul{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	list-style: none;
+	overflow: hidden;
+	padding:0;
+	background:#F9D9BE;
+}
+.dropdown.scrollable.open ul{
+	overflow-y: auto;
+}
+/* DROP DOWN LIST ITEMS */
+.dropdown li{
+	list-style: none;
+	padding:8px;
+	border-bottom: 1px solid #E7BD99;
+	color: #000;
+}
+.dropdown li:last-child {
+    border-bottom: 0;
+}
+/* .focus class is also added on hover */
+.dropdown li.focus{
+	background:#E4BD9C;
+	position: relative;
+	z-index: 3;
+	color: #fff;
+}
+.dropdown li.active{
+	background:#ee4a02;
+	color: #fff;
+}
