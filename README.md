@@ -5,3 +5,5 @@ Hosted Locally
 
 
 Mainly using HTML, CSS, BOOTSRAP and JavaScript
+
+Database stored in phpmyadmin
